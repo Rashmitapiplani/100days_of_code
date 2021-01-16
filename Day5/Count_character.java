@@ -4,6 +4,7 @@ public class Count_character {
 	public static void main(String[] args) { 
 		Scanner sc=new Scanner(System.in);
 		String s1=sc.nextLine();
+		sc.close();
 	    char ch[] =s1.toCharArray();
 	    HashMap<Character,Integer> hm=new HashMap<Character,Integer>();
 	    for(char ch1: ch)
